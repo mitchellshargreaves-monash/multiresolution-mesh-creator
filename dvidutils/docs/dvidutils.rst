@@ -1,0 +1,4 @@
+dvidutils
+=========================
+
+.. automodule:: dvidutils

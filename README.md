@@ -1,4 +1,4 @@
-This repository is a fork of [Multiresolution Mesh Creator](https://github.com/janelia-cosem/multiresolution-mesh-creator) made to ensure stability of source for another project. No changes have been made to this repo aside from a commit of the build folder to allow for
+This repository is a fork of [Multiresolution Mesh Creator](https://github.com/janelia-cosem/multiresolution-mesh-creator) made to ensure stability of source for another project. No changes have been made to this repo aside from a commit of the build folder and baking in the submodules to allow for direct installation from the repo via pip.
 
 Note that to build the source, [boost](https://www.boost.org/doc/libs/1_81_0/more/getting_started/unix-variants.html) is needed which is not mentioned in the original documentation below. This will involve downloading the binaries and running the `./boostrap.sh` and `./b2 install` install commands as per the tutorial above.
 

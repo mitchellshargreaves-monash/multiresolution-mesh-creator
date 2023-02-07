@@ -1,0 +1,28 @@
+*.egg-info/
+.ipynb_checkpoints/
+dist/
+backupBuild2/
+backupBuild3/
+src/include/
+*.py[cod]
+
+# OS X
+.DS_Store
+
+# sphinx docs
+_build/
+_generate/
+
+# Eclipse/PyDev
+.project
+.pydevproject
+.cproject
+.settings
+
+#vscode
+.vscode
+
+# pytest
+.cache
+
+/Debug/

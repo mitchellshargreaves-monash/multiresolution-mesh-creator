@@ -1,0 +1,10 @@
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/install.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/list_install_components.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/dvidutils.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/install/strip.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/install/local.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/_dvidutils.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/destripe_main.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/pytests.dir

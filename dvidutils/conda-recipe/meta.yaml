@@ -1,0 +1,52 @@
+package:
+    name: dvidutils
+  {% if GIT_DESCRIBE_NUMBER|int == 0 %}
+    version: {{GIT_DESCRIBE_TAG}}
+  {% else %}
+    # If we're using a non-tagged revision, append '.postN' to the version
+    version: {{GIT_DESCRIBE_TAG}}.post{{GIT_DESCRIBE_NUMBER}}
+  {% endif %}
+
+source:
+  path: ../
+
+build:
+  number: 0
+  string: py{{CONDA_PY}}_{{PKG_BUILDNUM}}_g{{GIT_FULL_HASH[:7]}}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - cmake
+  host:
+    - python {{ python }}*
+    - numpy {{ numpy }}* # To avoid runtime errors about the numpy ABI
+    - xtensor 0.19.3
+    - xtensor-python 0.22.1
+    - pybind11 2.2.4
+    - draco 1.3.4.*
+    - boost
+  run:
+    - python {{ python }}*
+    - numpy {{ numpy }}*
+    - draco 1.3.4.*
+
+test:
+  requires:
+   - pytest
+   - pandas
+
+  imports:
+    - dvidutils
+
+  source_files:
+    - tests
+    
+  commands:
+    - pytest tests
+
+about:
+  home: http://github.com/janelia-flyem/dvidutils
+  license: BSD (3-clause)
+  summary: A collection of utility functions for dealing with dvid data
