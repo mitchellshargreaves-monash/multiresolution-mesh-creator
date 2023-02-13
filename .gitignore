@@ -23,3 +23,4 @@ lsf-config-*
 lsf-config_*
 local-config-*
 local-config_*
+build/
