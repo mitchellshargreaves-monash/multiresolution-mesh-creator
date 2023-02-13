@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils
+# Install script for directory: /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,14 +44,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/lib/python3.7/site-packages/dvidutils")
+   "/home/ubuntu/miniconda3/envs/preprocessing/lib/python3.7/site-packages/dvidutils")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/lib/python3.7/site-packages" TYPE DIRECTORY FILES "/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/Debug/dvidutils")
+file(INSTALL DESTINATION "/home/ubuntu/miniconda3/envs/preprocessing/lib/python3.7/site-packages" TYPE DIRECTORY FILES "/home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/Debug/dvidutils")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

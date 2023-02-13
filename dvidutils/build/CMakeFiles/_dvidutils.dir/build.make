@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/bin/cmake
+CMAKE_COMMAND = /home/ubuntu/miniconda3/envs/preprocessing/bin/cmake
 
 # The command to remove a file.
-RM = /home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/bin/cmake -E rm -f
+RM = /home/ubuntu/miniconda3/envs/preprocessing/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils
+CMAKE_SOURCE_DIR = /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build
+CMAKE_BINARY_DIR = /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/_dvidutils.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/_dvidutils.dir/flags.make
 
 CMakeFiles/_dvidutils.dir/src/destripe.cpp.o: CMakeFiles/_dvidutils.dir/flags.make
 CMakeFiles/_dvidutils.dir/src/destripe.cpp.o: ../src/destripe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_dvidutils.dir/src/destripe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_dvidutils.dir/src/destripe.cpp.o -c /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/src/destripe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_dvidutils.dir/src/destripe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_dvidutils.dir/src/destripe.cpp.o -c /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/src/destripe.cpp
 
 CMakeFiles/_dvidutils.dir/src/destripe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_dvidutils.dir/src/destripe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/src/destripe.cpp > CMakeFiles/_dvidutils.dir/src/destripe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/src/destripe.cpp > CMakeFiles/_dvidutils.dir/src/destripe.cpp.i
 
 CMakeFiles/_dvidutils.dir/src/destripe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_dvidutils.dir/src/destripe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/src/destripe.cpp -o CMakeFiles/_dvidutils.dir/src/destripe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/src/destripe.cpp -o CMakeFiles/_dvidutils.dir/src/destripe.cpp.s
 
 CMakeFiles/_dvidutils.dir/src/main.cpp.o: CMakeFiles/_dvidutils.dir/flags.make
 CMakeFiles/_dvidutils.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_dvidutils.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_dvidutils.dir/src/main.cpp.o -c /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_dvidutils.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_dvidutils.dir/src/main.cpp.o -c /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/src/main.cpp
 
 CMakeFiles/_dvidutils.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_dvidutils.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/src/main.cpp > CMakeFiles/_dvidutils.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/src/main.cpp > CMakeFiles/_dvidutils.dir/src/main.cpp.i
 
 CMakeFiles/_dvidutils.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_dvidutils.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/src/main.cpp -o CMakeFiles/_dvidutils.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/src/main.cpp -o CMakeFiles/_dvidutils.dir/src/main.cpp.s
 
 # Object files for target _dvidutils
 _dvidutils_OBJECTS = \
@@ -114,7 +114,7 @@ Debug/dvidutils/_dvidutils.cpython-37m-x86_64-linux-gnu.so: CMakeFiles/_dvidutil
 Debug/dvidutils/_dvidutils.cpython-37m-x86_64-linux-gnu.so: CMakeFiles/_dvidutils.dir/src/main.cpp.o
 Debug/dvidutils/_dvidutils.cpython-37m-x86_64-linux-gnu.so: CMakeFiles/_dvidutils.dir/build.make
 Debug/dvidutils/_dvidutils.cpython-37m-x86_64-linux-gnu.so: CMakeFiles/_dvidutils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module Debug/dvidutils/_dvidutils.cpython-37m-x86_64-linux-gnu.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module Debug/dvidutils/_dvidutils.cpython-37m-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_dvidutils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/_dvidutils.dir/clean:
 .PHONY : CMakeFiles/_dvidutils.dir/clean
 
 CMakeFiles/_dvidutils.dir/depend:
-	cd /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/_dvidutils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/_dvidutils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_dvidutils.dir/depend
 

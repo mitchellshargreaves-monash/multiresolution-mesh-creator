@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/bin/cmake
+CMAKE_COMMAND = /home/ubuntu/miniconda3/envs/preprocessing/bin/cmake
 
 # The command to remove a file.
-RM = /home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/bin/cmake -E rm -f
+RM = /home/ubuntu/miniconda3/envs/preprocessing/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils
+CMAKE_SOURCE_DIR = /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build
+CMAKE_BINARY_DIR = /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build
 
 # Utility rule file for pytests.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils
 include CMakeFiles/pytests.dir/progress.make
 
 CMakeFiles/pytests:
-	PYTHONPATH=/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/Debug PYTEST_EXECUTABLE-NOTFOUND /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/tests
+	PYTHONPATH=/home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/Debug PYTEST_EXECUTABLE-NOTFOUND /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/tests
 
 pytests: CMakeFiles/pytests
 pytests: CMakeFiles/pytests.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/pytests.dir/clean:
 .PHONY : CMakeFiles/pytests.dir/clean
 
 CMakeFiles/pytests.dir/depend:
-	cd /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/pytests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build /home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/build/CMakeFiles/pytests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pytests.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDRACO_ATTRIBUTE_DEDUPLICATION_SUPPORTED=1
 
-CXX_INCLUDES = -I/home/ubuntu/workspace/multiresolution-mesh-creator/dvidutils/src -I/home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/include -I/home/ubuntu/miniconda3/envs/multiresolution_mesh_creator/lib/python3.7/site-packages/numpy/core/include
+CXX_INCLUDES = -I/home/ubuntu/workspace/preprocessing/multiresolution-mesh-creator/dvidutils/src -I/home/ubuntu/miniconda3/envs/preprocessing/include -I/home/ubuntu/miniconda3/envs/preprocessing/lib/python3.7/site-packages/numpy/core/include
 
 CXX_FLAGS =  -std=c++14 -g -g -O0 -DXTENSOR_ENABLE_ASSERT=ON
 
