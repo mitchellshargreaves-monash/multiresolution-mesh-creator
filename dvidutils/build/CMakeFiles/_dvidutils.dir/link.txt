@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -std=c++14 -g -g -O0 -DXTENSOR_ENABLE_ASSERT=ON -shared  -o Debug/dvidutils/_dvidutils.cpython-37m-x86_64-linux-gnu.so CMakeFiles/_dvidutils.dir/src/destripe.cpp.o CMakeFiles/_dvidutils.dir/src/main.cpp.o   -L/home/ubuntu/miniconda3/envs/preprocessing/lib  -Wl,-rpath,/home/ubuntu/miniconda3/envs/preprocessing/lib -ldraco -ldracoenc -ldracodec 
